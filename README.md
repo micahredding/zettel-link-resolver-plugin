@@ -6,9 +6,8 @@ Be aware that this essentially makes ALL links look for partial matches, before 
 
 ## Examples:
 
-- `[[202503102346]] zettelkasten note` WILL RESOLVE TO `202503102346 zettelkasten note.md`
-- `[[202503102346 zettelkasten note]]` WILL ALSO RESOLVE TO `202503102346 zettelkasten note.md`
-- `[[obsidian-style link]]` WILL (STILL) RESOLVE TO `obsidian-style link.md`
-- `[[partial-match]] link` WILL RESOLVE TO `partial-matching might be unexpected.md`
-- `[[202503102352]] an unmatched link` WILL CREATE `202503102352.md`
+- `[[202503102346]] zettelkasten-style` WILL RESOLVE TO `202503102346 zettelkasten-style.md`
+- `[[obsidian-style]]` WILL (STILL) RESOLVE TO `obsidian-style.md`
+- `[[partial-match]]` WILL RESOLVE TO `partial-matching might be unexpected.md`
+- `[[202503102352]] unmatched link` WILL CREATE `202503102352.md`
 
