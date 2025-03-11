@@ -1,8 +1,8 @@
 import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting, TFile } from 'obsidian';
 
-export default class FuzzyLinkPlugin extends Plugin {
+export default class ZettelLinkResolverPlugin extends Plugin {
   async onload() {
-    console.log("FuzzyLinkPlugin loaded.");
+    console.log("ZettelLinkResolverPlugin loaded.");
 
     // Store the original method
     const originalGetFirstLinkpathDest = this.app.metadataCache.getFirstLinkpathDest;
@@ -38,6 +38,6 @@ export default class FuzzyLinkPlugin extends Plugin {
   }
 
   onunload() {
-    console.log("FuzzyLinkPlugin unloaded.");
+    console.log("ZettelLinkResolverPlugin unloaded.");
   }
 }
