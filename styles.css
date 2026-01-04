@@ -6,3 +6,34 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+.link-chooser-list {
+    margin: 1em 0;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.link-chooser-item {
+    padding: 8px 12px;
+    margin: 4px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.link-chooser-item:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.link-chooser-cancel {
+    margin-top: 1em;
+    padding: 6px 12px;
+    background-color: var(--background-modifier-hover);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.link-chooser-cancel:hover {
+    background-color: var(--background-modifier-active);
+}
